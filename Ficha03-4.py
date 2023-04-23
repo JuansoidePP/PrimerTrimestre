@@ -24,6 +24,6 @@ horas = int((convertirHLleg - convertirHSalida)/60)
 #Duracion en minutos
 minutos = int(minutosLlegada - minutosSalida)
 
-print("duracion de vuelo", minutos, "minutos")
+print("duracion de vuelo", minutos//60, "horas", minutos % 60, "minutos")
 
 #Al no usar condicionales, este algoritmo esta mal
